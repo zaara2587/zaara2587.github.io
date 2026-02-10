@@ -180,11 +180,35 @@ section a:hover {
       flex-direction: column;
     }
 
-    .three-col {
+.splash h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;       
+  font-family: libre baskerville, serif;
+  color: white;
+  transform: translateX(-50%); 
+  font-size: 3.0rem;       
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  
+}
+
+.Headshot {
+  position: absolute;
+  bottom: -30px;
+  left:5%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.three-col {
       display: grid;
       grid-template-columns: 1fr;
     }
 }
+
 
 /**************   Contact Page   *****************/
 .one-col {
@@ -209,4 +233,5 @@ input {
 textarea {
    min-height: 8rem;
    width: 100%;
+
 }
