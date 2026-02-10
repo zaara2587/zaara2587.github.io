@@ -51,14 +51,13 @@ text-align: center;
 }
 
 .Headshot {
-  position: absolute;
-  bottom: -125px;
-  left:5%;
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    width: 22vw;
+    height: 22vw;
+    max-width: 90px;
+    max-height: 90px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .address {
 font-family: Arial, Helvetica, sans-serif;
@@ -235,3 +234,4 @@ textarea {
    width: 100%;
 
 }
+
