@@ -191,8 +191,9 @@ nav {
   left: 50%;       
   font-family: libre baskerville, serif;
   color: white;
+  top: -5px;
   transform: translateX(-50%); 
-  font-size: 3.0rem;       
+  font-size: 3.5rem;       
   z-index: 2;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  
 }
@@ -240,6 +241,7 @@ textarea {
    width: 100%;
 
 }
+
 
 
 
