@@ -176,13 +176,15 @@ section a:hover {
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
-    nav {
+nav {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 2px;
-    }
-
+ }
+	
+.tagline,
+.address {
+  margin-top: 2rem;
+}
+	
 .splash h1 {
   position: absolute;
   top: 20%;
@@ -238,6 +240,7 @@ textarea {
    width: 100%;
 
 }
+
 
 
 
