@@ -179,6 +179,8 @@ section a:hover {
     nav {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      gap: 2px;
     }
 
 .splash h1 {
@@ -236,5 +238,6 @@ textarea {
    width: 100%;
 
 }
+
 
 
